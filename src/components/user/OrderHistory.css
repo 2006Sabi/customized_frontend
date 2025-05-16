@@ -1,0 +1,43 @@
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.order-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.order-info h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.order-info p {
+  margin: 0.3rem 0;
+  color: #666;
+}
+
+.order-status {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 4px 8px;
+  background-color: #ffa500;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+}

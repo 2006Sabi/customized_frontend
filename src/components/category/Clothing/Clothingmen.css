@@ -1,0 +1,107 @@
+.clothing-men-page {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fefefe;
+}
+
+.clothing-men-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.men-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.men-navbar button {
+  padding: 10px 18px;
+  border: none;
+  background-color: black;
+  color: orange;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.men-navbar button:hover {
+  background-color: white;
+  color: black;
+}
+
+.men-navbar input {
+  padding: 10px 12px;
+  border: 2px solid #0f0e0e;
+  border-radius: 8px;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.men-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 2fr)); /* 💥 Bigger Card */
+  gap: 30px;
+}
+
+.men-card {
+  background: wheat;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 34px; /* 💥 More padding */
+  transition: 0.3s ease; 
+  margin: 0 auto;  
+}
+
+.men-card:hover {
+  transform: translateY(-5px);
+}
+
+.men-card img {
+  width: 100%;
+  height: 300px; /* 💥 Bigger image */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.men-card h3 {
+  font-size: 1.3rem; /* 💥 Bigger font */
+  margin: 12px 0;
+}
+
+.price {
+  font-size: 1rem; /* 💥 Slightly bigger price */
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.add-to-cart-button,
+.buy-button {
+  flex: 1;
+  padding: 12px 8px; /* 💥 Bigger buttons */
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.add-to-cart-button:hover,
+.buy-button:hover {
+  background: black;
+  color: orange;
+}

@@ -1,0 +1,85 @@
+.product-page {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fefefe;
+}
+
+.product-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background: wheat;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 34px;
+  transition: 0.3s ease;
+  margin: 0 auto;
+  color: black;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  font-size: 1.3rem;
+  margin: 12px 0;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+/* Add to Cart Button */
+.add-button,
+.buy-button {
+  flex: 1;
+  padding: 12px 8px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.add-button:hover,
+.buy-button:hover {
+  background: black;
+  color: orange;
+}

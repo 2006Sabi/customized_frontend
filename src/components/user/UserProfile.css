@@ -1,0 +1,104 @@
+/* Full Page Container */
+.profile-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1a1a1a, #000);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Sidebar Navigation */
+.profile-sidebar {
+  width: 260px;
+  background: #111;
+  padding: 25px 0;
+  border-right: 1px solid #222;
+  box-shadow: 2px 0 8px rgba(255, 180, 0, 0.1);
+}
+
+.profile-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-sidebar li {
+  padding: 15px 30px;
+  color: #a39b88;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  font-size: 16px;
+}
+
+.profile-sidebar li:hover,
+.profile-sidebar li.active {
+  background: #b4995a;
+  color: #000;
+  font-weight: 600;
+  border-left: 4px solid #000;
+}
+
+/* Main Content Section */
+.profile-content {
+  flex: 1;
+  padding: 40px;
+  margin: 30px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(255, 180, 0, 0.1);
+  color: #aba38e;
+}
+
+/* Title */
+.profile-content h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #ffb400;
+  border-bottom: 2px solid #aa9f87;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Profile Data Section */
+.profile-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 40px;
+}
+
+.profile-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-row label {
+  font-weight: 600;
+  color: #ae9a6c;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.profile-row span {
+  color: #eee;
+  font-size: 16px;
+}
+
+/* Edit Button */
+.edit-btn {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #857a62;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 180, 0, 0.2);
+}
+
+.edit-btn:hover {
+  background-color: #000;
+  color: #ffb400;
+}
