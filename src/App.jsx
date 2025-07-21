@@ -61,6 +61,7 @@ function App() {
             {/* Main Pages */}
             <Route path="/" element={<HomePage />} />
             <Route path="/products" element={<ProductPage />} />
+            <Route path="/product/:id" element={<ProductPage />} />
 
             {/* Clothing Category Routes */}
             <Route

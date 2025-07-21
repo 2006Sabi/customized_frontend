@@ -1,7 +1,5 @@
 import React from "react";
-import "./HomePage.css";
-
-// Import only the images used in the JSX
+import "./HomePage.css"; 
 import heroBanner from "./images/hero-banner.jpg";
 import featureDesign from "./images/feature-design.jpg";
 import featureQuality from "./images/feature-quality.jpg";
